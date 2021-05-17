@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-white: #fff;
+  --bg-orange: #d88c1e;
+  --bg-green: #74b31e;
+  --bg-gray: #eaebeb;
+  --bg-dark-gray:#464f4d;
+  --font: 'Open Sans', sans-serif;
+}
+/***Aplico a todo el html la family font de Google Fonts***/
+html {
+  font-family: var(--font);
+}
+/**********HEADER***********/
+header {
+  background-image: url(../img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  color: var(--text-white);
+}
+.cabecera {
+  padding-top: 2rem;
+}
+.logo {
+  width: 50%;
+  float: left;
+  padding-left: 2rem;
+  text-transform: uppercase;
+}
+.botonera {
+  width: 50%;
+  float: left;
+}
+.botonera ol li {
+  display: inline-block;
+  width: 22%;
+  text-align: center;
+}
+.botonera ol li a {
+  text-decoration: none;
+  color: var(--text-white);
+  width: 25%;
+}
+.texto-header {
+  padding: 24vh 10vh 10vh 10vh;
+  clear: both;
+}
+.texto-header p {
+  line-height: 1.8;
+  font-weight: 600;
+  font-size: 2rem;
+}
+@media screen and (max-width: 730px) {
+  .logo {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  .botonera {
+    width: 100%;
+    float: left;
+    padding-left: 0.75rem;
+  }
+  .texto-header {
+    padding: 20vh 6vh 6vh 6vh;
+    clear: both;
+  }
+  .texto-header p {
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+
+}
+/*******SECCION NOSOTROS*********/
+#nosotros, #productos {
+  width: 90%;
+  margin: 0 auto;
+}
+#nosotros h2 {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.container-nosotros {
+  padding: 2rem 0rem;
+}
+.subcontainer-nosotros {
+  text-align: center;
+  padding: 0.5rem;
+}
+.subcontainer-nosotros h3 {
+  padding: 1rem 0rem;
+  text-transform: uppercase;
+}
+.subcontainer-nosotros p {
+  line-height: 1.8;
+  font-size: 1.25rem;
+}
+@media screen and (min-width: 730px) {
+  .container-nosotros {
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    justify-content: space-between;
+    align-content: center;
+  }
+}
+/*******SECCION PRODUCTOS*********/
+#productos {
+  text-align: left;
+
+}
+.container-productos h2 {   
+  padding: 1rem 0rem; 
+  text-align: center;
+}
+@media screen and (max-width: 729px) {
+  .seccion-productos h3 {
+    font-size: 2rem;
+  }
+  .seccion-productos p {
+    font-size: 1.5rem;
+  }
+}
+.caja {
+  background-color: var(--bg-gray);
+  margin-bottom: 20px;
+}
+.caja img {   
+  width: 100%; 
+}
+.caja h3 {   
+  padding: 1.25rem 1.25rem;
+  min-height: 5rem; 
+}
+.caja p { 
+  line-height: 1.8; 
+  padding: 0.50rem 1.25rem;
+  min-height: 11rem;
+}
+@media screen and (min-width: 950px) {
+  .caja h3 {   
+    min-height: 4.2rem; 
+  }
+  .caja p { 
+    min-height: 8.2rem;
+  }
+}
+.verde {
+  color: var(--bg-green);
+  padding: 0.5rem 0rem;
+  font-weight: 800;
+  min-height: 3rem!important;
+}
+/***Iconos con características**/
+aside {
+  display: grid;
+  grid-template-columns: repeat(3,28%);
+  justify-content: space-around;
+  align-content: center;
+}
+.iconos-caracteristicas {
+  padding: 0.25rem;
+}
+.iconos-caracteristicas img {
+  width: 50%;
+}
+.iconos-caracteristicas i {
+  font-size: 1.25rem;
+}
+.caja button {
+  background-color: var(--bg-orange);
+  width: 90%;
+  margin: 1.25rem 5%;
+  padding: 0.6rem;
+  color: var(--text-white);
+  text-transform: uppercase;
+}
+/***Boton verde ver todas***/
+.btn-ver-todas {
+  float: right;
+}
+.btn-ver-todas button{
+  padding: 10px 20px;
+  color: var(--text-white);
+  background-color: var(--bg-green);
+  margin: 0.75rem;
+}
+/*******SECCION CONTACTO*********/
+#contacto {
+  background-image: url(../img/encuentra.jpg);
+  color: var(--text-white);
+  margin-top: 70px;
+}
+#contacto .container {
+  padding: 20% 10% 5% 20%;
+}
+#contacto h2, #contacto p:not(.btn) {
+  margin-bottom: 2rem;
+}
+button {
+  background-color: var(--bg-orange);
+  border: none;
+}
+p.btn {
+  text-transform: uppercase;
+  color: var(--text-white);
+  padding: 10px 15px;
+}
+/*******FOOTER***********/
+footer {
+  background-color: var(--bg-dark-gray);
+  height: 75px;
+}
+.container-footer {
+  padding: 25px 10px 0px 25px;
+  color: var(--text-white);
+}
+#links{
+  width: 100%;
+  float: left;
+}
+#links a {
+  text-decoration: none;
+  color: var(--text-white);
+  margin-right: 10px;
+}
+#disenio{
+  width: 100%;
+  float: left;
+  text-align: right;
+}
+@media screen and (min-width: 576px) {
+  #links{    
+    width: 78%;  
+  }  
+  #disenio{    
+    width: 22%;  
+  }
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/*****Reset*****/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/***** Colors and family fonts****/
+:root {
+  --primary: #ababab;
+  --secondary: #e5af0f;
+  --font: 'Roboto', sans-serif;
+}
+html {
+  font-family: var(--font);
+}
+/*****Header********/
+#cabecera {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+#cabecera img {
+  align-items: flex-start;
+}
+/*Nav bar*/
+#barra-navegacion-principal {
+  background-color: var(--primary);
+}
+#barra-navegacion-principal ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.50rem;
+  
+}
+#barra-navegacion-principal ul li {
+  width: 8%;
+  list-style: none;
+}
+/****Main*****/
+#principal {
+  width: 90%;
+  margin: 5%;
+}
+h1 {
+  text-align: center;
+}
+
+#html {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+#html img {
+  margin-bottom: 1rem;
+}
+#css {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+#css img {
+  margin-bottom: 1rem;
+}
+/********Footer*********/
+#pie-de-pagina {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem;
+}

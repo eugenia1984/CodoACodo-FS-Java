@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/*****RESET*****/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/***** COLORS AND FONTS****/
+:root {
+  --primary: #cc4165;
+  --secondary: #6d3580;
+  --bg-color: #ffe26f ;
+  --text-white: #fff;
+  --font: 'Roboto', sans-serif;
+}
+body {
+  font-family: var(--font);
+}
+/*******************
+HEADER
+*********************/
+header {
+  background-color: var(--secondary);
+}
+.navbar-brand {
+  color: var(--primary);
+  font-weight: 800;
+}
+/*******NAV BAR********/
+ul.topnav {
+  list-style: none;
+  overflow: hidden;
+  background-color: var(--secondary);
+}
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {
+  background-color: var(--primary);
+}
+
+ul.topnav li.right {
+  float: right;
+}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, ul.topnav li {
+    float: none;
+  }
+}
+/***********************
+MAIN
+*************************/
+.hero-image{
+  height: 80vh;
+  background-image: url(../img/programming.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+h1 {
+  text-align: center;
+  color: var(--text-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/********PRESENTACION*********/
+#presentacion {
+  padding: 2rem 1rem;
+}
+#presentacion p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+/********TECNOLOGIAS*********/
+#tecnologias {
+  background-color: var(--bg-color);
+}
+h2 {
+  padding: 2rem 0rem;
+  color: var(--primary);
+}
+.container-slider {
+  width: 40%;
+  margin: 0% 30%;
+  padding-bottom: 2rem;
+}
+.carousel-control-next, .carousel-control-prev{
+width: 5%;
+}
+
+/****************PRACTICA*************/
+
+.card-title{
+  color: var(--primary);
+}
+#practica a {
+  color: var(--text-white);
+}
+.btn-fondo {
+  background-color: var(--primary);
+  color: var(--text-white);
+  border: none;
+}
+.btn-fondo:hover {
+  background-color: var(--secondary);
+  color: var(--text-white);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  border: none;
+}
+/*********CONTACTO***********/
+#contacto {
+  background-color: var(--bg-color);
+}
+.redes-sociales {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+.redes-sociales a{
+  color: var(--primary);
+}
+.redes-sociales a:hover{
+  color: var(--secondary);
+}
+/*********FOOTER***********/
+footer {
+  background-color: var(--secondary);
+  padding: 1.25rem;
+  text-align: center;
+}

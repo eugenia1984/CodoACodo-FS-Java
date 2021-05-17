@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: rgb(247, 243, 22);
+}
+
+/****Body*****/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/***** Footer & Header****/
+footer, header {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+}
+
+#main-formulario {
+  height: 100vh;
+}
+/**** Formulario****/
+fieldset {
+  width: 70%;
+  margin: 2rem 15%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+span  {
+  display: block;
+  width: 60%;
+  margin: auto;
+}
+
+label, input {
+  display: inline-block;
+}
+
+label {
+  width: 25%;
+  margin: 0.50rem 0rem;
+}
+
+input {
+  width: 70%;
+  margin: 0.50rem 0rem;
+  padding: 0.25rem;
+}
+
+input[type=submit] {
+  width: 20%;
+  margin: 2% 36%;
+  padding: 0.50rem;
+  box-shadow: 2px 2px 1px rgb(117, 117, 117);
+}
+
+/******Media Queries para celulares********/
+@media all and (max-width: 590px) {
+  span  {
+    width: 90%;
+  }
+  label {
+    width: 35%;
+  }
+  input {
+    width: 60%;
+  }
+  input[type=submit] {
+    width: 25%;
+  }  
+}
+

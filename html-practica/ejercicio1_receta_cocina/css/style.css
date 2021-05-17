@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: rgb(240, 236, 28);
+  --secondary-color: rgb(184, 242, 119);
+}
+
+/****Body*****/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*****Sección principal*****/
+
+#container{
+  width: 90%;
+  margin: 2rem auto;
+}
+#container h2 {
+  text-align: center;
+  padding: 1rem;
+}
+#container h3 {
+  text-align: center;
+  padding: 1rem;
+}
+#foto-alfajores {
+  width: 40%;
+  float: left;
+}
+#foto-alfajores img {
+  width: 80%;
+  margin: 1rem 10%;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+@media screen and (min-width: 900px){
+  #foto-alfajores img {
+    width: 50%;
+    margin: 1rem 25%;
+  } 
+}
+#nutricional {
+  width: 60%;
+  float: left;
+}
+#nutricional h3 {
+  text-align: left;
+}
+#ingredientes {
+  background-color: var(--secondary-color);
+  border-radius: 14px;
+  clear: both;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  padding: 2rem;
+}
+#preparacion {
+  padding: 2rem;
+}
+#preparacion ol li {
+  line-height: 2;
+}
+/***** Footer & Header****/
+footer, header {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+}

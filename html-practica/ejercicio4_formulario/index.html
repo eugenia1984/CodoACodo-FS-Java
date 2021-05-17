@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica de Formulario</title>
+  <!--Link Google Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!--Link a CSS-->
+  <link rel="stylesheet" href="./css/style.css">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <h1>Práctica de formulario en <img src="./img/logo.jpg" alt="logo de codo a codo"></h1>
+  </header>
+  <main id="main-formulario">
+    <h2>Llena el formulario de contacto</h2>
+    <form action="mailto:costamariaeugenia1@gmail.com" method="post" id="formulario">
+      <!---Información personal---->
+      <fieldset id="personal">
+        <legend>Información personal</legend>
+          <!--Nombre-->
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="nombre" placeholder="Tu nombre" required>
+          <!--Email-->
+          <label for="email">E-mail:</label>
+          <input type="text" id="email" name="correo" placeholder="Tu Email" required>
+          <!--Telefono-->
+          <label for="telephone">Teléfono:</label>
+          <input type="tel" id="telephone" name="telefono" placeholder="Tu Teléfono" required>
+          <!--Mensaje-->
+          <p>Mensaje:</p>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10" maxlength="300"></textarea>
+      </fieldset>
+      <!---Información sobre propiedad---->
+      <fieldset id="propiedad">
+        <legend>Información sobre Propiedad</legend>
+          <!--Vender Comprar-->
+          <p>Vende o Compra:</p>
+          <select name="vender-comprar" id="accion">
+            <option value="seleccione">--Seleccione--</option>
+            <option value="vende">Vende</option>
+            <option value="compra">Compra</option>
+          </select>
+          <!--Presupuesto-->
+          <label for="presupuesto">presupuesto:</label>
+          <input type="number" id="presupuesto" name="precio" required>
+      </fieldset>
+      <!----Contacto---->
+      <fieldset id="contacto">
+        <legend>Contacto</legend>
+          <!--Ser contactado-->
+          <p>Cómo desea ser contactado:</p>
+          <input type="radio" id="telefono" name="telefono-correo" value="telefono">
+          <label for="telefono">Teléfono</label>
+          <input type="radio" id="correo" name="telefono-correo" value="correo">
+          <label for="correo">Correo</label>
+          
+          <!--Fecha-->
+          <p>Si eligió teléfono, elija la fecha</p>
+          <label for="fecha">Fecha:</label>
+          <input type="date" id="fecha" name="date">
+          <!--Hora-->
+          <label for="hora">Hora:</label>
+          <input type="time" id="hora" name="hour">
+          <!--Botones-->
+          <input type="submit" value="Enviar" class="btn">
+          <input type="reset" value="Borrar" class="btn">
+      </fieldset>
+    </form>
+
+  </main>
+  <footer>
+    <p>&copy; 2021 * Diseñado por <a href="https://www.linkedin.com/in/maríaeugeniacosta" target="_blank"
+        rel="noopener"> María Eugenia Costa</a> como práctica en <strong>Codo a Codo</strong></p>
+  </footer>
+  </footer>
+</body>
+
+</html>

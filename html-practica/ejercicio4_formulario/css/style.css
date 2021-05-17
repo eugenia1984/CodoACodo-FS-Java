@@ -1,0 +1,66 @@
+/***** REset********/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: rgb(247, 243, 22);
+  --shadow: rgb(196, 195, 195);
+}
+
+/********Body***********/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/******Header*******/
+header img {
+  width: 60px;
+}
+
+/****Main*****/
+h2{
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+/****Formulario*******/
+#formulario {
+  width: 70%;
+  margin: 2rem auto;
+}
+@media screen and (max-width: 600px) {
+  #formulario {
+    width: 90%;
+  }
+}
+fieldset {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+  box-shadow: -3px 3px 1px var(--shadow);
+}
+#personal label, #personal input,#propiedad select, #propiedad label, #propiedad input, #contacto input, #contacto label {
+  display: block;
+  padding: 0.25rem 0rem;
+}
+p {
+  margin: 1rem 0rem;
+}
+.btn {
+  padding: 5px 10px!important;
+  margin: 10px 85px 10px 5px;
+  display: inline-block!important;
+}
+/***** Footer & Header****/
+footer, header {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+}

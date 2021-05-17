@@ -1,0 +1,58 @@
+/******Reset*********/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #fb0404;
+  --black: #040404;
+  --yellow: #fad30b;
+  --gray: #efefee;
+  --white: #fff;
+}
+/***Aplico mi google fonts a todo el documento*****/
+html {
+  font-family: 'Orelega One', cursive;
+}
+header, footer {
+  background-color: var(--gray);
+  padding: 1rem;
+  text-align: center;
+}
+h1,h2{
+  margin-bottom: 0.5rem;
+}
+/*****Main*******/
+main {
+  height: 90vh;
+}
+.cuadrado {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin: 15px 0px 15px 15px;
+}
+p {
+  padding-top:10px;
+  font-size: 32px;
+}
+/***Para aplicar a los cuadrados con fondo rojo y letra amarilla***/
+p:not(#dos) {
+  color: var(--yellow);
+}
+section:not(#dos) {
+  background-color: var(--red);
+}
+/****Para aplicar al cuadrado con fondo negro y letra blanca*****/
+#dos {
+  background-color: var(--black);
+}
+#dos p {
+  color: var(--white);
+}
+/****Texto del footer****/
+footer p {
+  font-size: 18px;
+}
