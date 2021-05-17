@@ -1,73 +1,3 @@
-ENGLISH
-
-# Codo a Codo - Full Stack Java
-
-## What I did 🚀
-
-I group by folders the topics that are seen in the **Full Stack Java** course in **Codo a Coco**
-
-## Content 🚀
-
-* **HTML-practica**
-
-  * **exercise 1 : receta cocina:** in this file you will see a simple landing page with a cooking recepie, I used: <br> 
-  -the different headers (h1, h2,h3) <br> 
-  -Unorderer and orderer list to list the item you ned to cook, the nutritional information and the steps to cook. <br>
-  -one image. <br>  
-  -semantic tags of HTML5.<br> 
-  -add style with css. <br>
-
-  * **exercise 2: table:** I made a table with anothe recepie and used: <br>
-  -the different headers (h1, h2,h3) <br> 
-  -table <br> 
-  -iframe to add a video. <br>
-  -one image. <br> 
-  -semantic tags of HTML5.<br>
-  -add style with css. <br>
-
-  * **exercise 3: formulario login**: with one form as a example I must recreate the same one with code.<br>
-  -all the tags toe create a log in form with: form, label, input. <br>
-  -semantic tags of HTML5.<br>
-  -add style with css. <br>
-  
-  * **exercise 4: real estate form**: Home page, with title, form to fill in contact details (personal info, property info and contact info) and footer. <br>
-  -all tags create a registration form with: form, tag, input. <br>
-  -HTML5 semantic tags.<br>
-  -add style with css. <br>
-
-* **CSS-practica**
-
-  * **exercise 1: copiar imagen**: applying css copy a given image and used. <br>
-  -semantic tags: header, mian, section, footer, nav <br>
-  -I added a favicon with the logo from elbow to elbow <br>
-  -I used flexbox to organize the content <br>
-  
-  * **exercise 2: HTML and CSS - Copy**: Copy some images of boxes to practice box model together with the CSS3 selectors.
-  
-  * **exercise 3: HTML and CSS - Layout**: Integrator. Layout as similar as possible to the given image, a real estate landing page.
-
-* **Bootstrap - practice**
-
-  * **Exercise 1: Copy**: Copy a given image using Bootstrap components of login cards and forms.
-
-## Stack of technologies?  🛠️
-
-**HTML5** , **CSS3** & **BOOTSTRAP**
-
-## Please: 🎁
-
-* Share this proyect with others 📢
-* Invite a beer 🍺 or a coffee ☕  to someone of the team. 
-* Thanks a lot 🤓.
-
----
-## Notes
-I appreciate your interest in this Project ⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊 and follow me at [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta) 
-
----
-
-ESPAÑOL
-
 # Codo a Codo - Full Stack Java
 
 ## Lo que hice 🚀
@@ -121,7 +51,7 @@ Agrupo por carpetas los temas que se ven en el curso **Full Stack Java** en **Co
 
 ## Tecnologías utilizadas: 🛠️
 
-**HTML5** , **CSS3** y **BOOTSTRAP**
+**HTML5** , **CSS3** , **BOOTSTRAP** y **JAVASCRIPT**
 
 ## Por favor: 🎁
 
