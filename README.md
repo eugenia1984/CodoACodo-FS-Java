@@ -4,6 +4,8 @@
 
 Agrupo por carpetas los temas que se ven en el curso **Full Stack Java** en **Codo a Coco**
 
+---
+
 ## Contenido 🚀
 
 * **HTML-practica**
@@ -54,13 +56,19 @@ Agrupo por carpetas los temas que se ven en el curso **Full Stack Java** en **Co
 
   *  **ejercicio 2** : Realizar un programa que permita ingresar al usuario nombre del alumno, 3 notas y muestre el promedio, utilizar lo visto en clase (Prompt, Alert).
 
+---
+
 ## Tecnologías utilizadas: 🛠️
 
 **HTML5** , **CSS3** , **BOOTSTRAP** y **JAVASCRIPT**
 
+---
+
 ## Podes ver acá:
 
 https://eugenia1984.github.io/CodoACodo-FS-Java/
+
+---
 
 ## Por favor: 🎁
 
@@ -69,8 +77,10 @@ https://eugenia1984.github.io/CodoACodo-FS-Java/
 * Muchas gracias 🤓.
 
 ---
+
 ## Notas
-Agradezco su interés en este Proyecto ⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y síganme en [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta)
+
+Agradezco su interés en este Proyecto ⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y síganme en [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
 
 ---
 
