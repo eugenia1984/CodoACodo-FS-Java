@@ -8,6 +8,10 @@ Agrupo por carpetas los temas que se ven en el curso **Full Stack Java** en **Co
 
 ## Contenido 🚀
 
+* **Front End Teoría**
+
+ En la carpeta [`front-end`](https://github.com/eugenia1984/CodoACodo-FS-Java/tree/main/front-end) está toda la parte teórica de la parte de Front End
+ 
 * **HTML-practica**
 
   * **ejercicio 1: receta cocina:** en este archivo verá una página de inicio simple con una receta de cocina, yo usé: <br>
