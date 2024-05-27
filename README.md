@@ -10,9 +10,9 @@ Agrupo por carpetas los temas que se ven en el curso **Full Stack Java** en **Co
 
 * **Front End Teoría**
 
- En la carpeta [`front-end`](https://github.com/eugenia1984/CodoACodo-FS-Java/tree/main/front-end) está toda la parte teórica de la parte de Front End
+- En la carpeta [`front-end`](https://github.com/eugenia1984/CodoACodo-FS-Java/tree/main/front-end) está toda la parte teórica de la parte de Front End
  
-* **HTML-practica**
+- **HTML-practica**
 
   * **ejercicio 1: receta cocina:** en este archivo verá una página de inicio simple con una receta de cocina, yo usé: <br>
   -los diferentes encabezados (h1, h2, h3) <br>
@@ -39,7 +39,7 @@ Agrupo por carpetas los temas que se ven en el curso **Full Stack Java** en **Co
   -etiquetas semánticas de HTML5. <br>
   -agregar estilo con css. <br>
 
-* **CSS-practica**
+- **CSS-practica**
 
   * **ejercicio 1: copiar imagen**: aplicando css copie una imagen dada y utlicé.<br>
   -etiquetas semánticas: header, mian, section, footer, nav <br>
@@ -50,11 +50,11 @@ Agrupo por carpetas los temas que se ven en el curso **Full Stack Java** en **Co
   
   * **ejercicio 3: HTML y CSS - Maquetar** : Integrador. Maquetar lo más similar posible a la imagen dada, una landing page de inmobiliaria. 
 
-* **Bootstrap - práctica**
+- **Bootstrap - práctica**
 
   * **ejercicio 1: Copiar** : Copiar una imagen dada utilizando los componentes de Bootstrap de tarjetas y formularios de log in.
 
-* **JavaScript - práctica**
+- **JavaScript - práctica**
 
   *  **ejercicio 1** : Declaramos variables, asignamos valores y mostramos en documento HTML.
 
