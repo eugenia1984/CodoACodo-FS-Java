@@ -19,3 +19,13 @@
 ● Comenzar a diagramar los layouts/estructura de cada página del sitio web.
 
 ---
+
+## 3 - Tarea para el Proyecto:
+
+● Familiarizarse con el uso de servicios hosting gratuitos.
+
+● Buscar e incorporar elementos necesarios mediante iframe.
+
+● Comprobar el código escrito en https://validator.w3.org o similares.
+
+---
