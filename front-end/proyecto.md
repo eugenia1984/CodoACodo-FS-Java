@@ -29,3 +29,11 @@
 ● Comprobar el código escrito en https://validator.w3.org o similares.
 
 ---
+
+## 4 - Tarea para el Proyecto:
+
+● Crear un formulario donde se incluyan algunos de los atributos type de la etiqueta input visto en clase. Podés utilizar esto luego para tu proyecto web. Sugerencias para formularios: consulta, reserva de turno, encuesta. El formulario deberá incorporar el botón “Enviar”.
+
+● Aplicar lo visto en ¿Cómo pensar un proyecto web?
+
+---
