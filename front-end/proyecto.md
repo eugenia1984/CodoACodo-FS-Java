@@ -37,3 +37,11 @@
 ● Aplicar lo visto en ¿Cómo pensar un proyecto web?
 
 ---
+
+## 5 - Tarea para el Proyecto:
+
+● Utilizar CSS para aplicar formatos a los párrafos, títulos y demás elementos de las páginas HTML de nuestro proyecto.
+
+● Utilizar CSS en el formulario.
+
+---
