@@ -55,9 +55,9 @@ Contenidos:
 -Responsive Web Design. Introducción a MediaQueries. Flexbox y CSS Grid.
 ```
 
-- [Clase 05 - CSS parte 1](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-05.md)
+- [Clase 05 - Introducción a CSS](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-05.md)
 
-- Clase 06
+- [Clase 06 - CSS 2 - Medidas, colores, fondos, fuentes e íconos](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-06.md)
   
 - [Proyecto](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/proyecto.md)
 
