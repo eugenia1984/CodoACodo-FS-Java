@@ -45,3 +45,13 @@
 ● Utilizar CSS en el formulario.
 
 ---
+
+## 6 - Tarea para el Proyecto:
+
+● Diseñar al menos 2 páginas para el proyecto web: la página de inicio y una página interna para el sitio web.
+
+● Utilizar etiquetas semánticas para estructurar las dos páginas que servirán como template para todo nuestro sitio. Más adelante podrá ir incorporando más templates en caso de ser necesario.
+
+● Nota: en caso de ser un sitio web estilo one page, el mismo deberá tener al menos 3 secciones.
+
+---
