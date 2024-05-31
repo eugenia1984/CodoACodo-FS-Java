@@ -59,7 +59,9 @@ Contenidos:
 
 - [Clase 06 - CSS 2 - Medidas, colores, fondos, fuentes e íconos](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-06.md)
 
-- [Clase 7](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-07.md)
+- [Clase 7 - CSS](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-07.md)
+
+- [Clase 8 - CSS - Selectores avanzados y animaciones](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-08.md)
   
 - [Proyecto](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/proyecto.md)
 
