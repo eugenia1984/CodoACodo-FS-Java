@@ -65,3 +65,10 @@
 ● Crear un banco de imágenes para el proyecto.
 
 ---
+
+## 8 - Tarea para el Proyecto:
+
+● Agregar efectos al menú de navegación. Podrá aprovechar las
+pseudoclases vistas en la clase de hoy.
+
+---
