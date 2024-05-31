@@ -55,3 +55,13 @@
 ● Nota: en caso de ser un sitio web estilo one page, el mismo deberá tener al menos 3 secciones.
 
 ---
+
+## 7 - Tarea para el Proyecto:
+
+● Seleccionar una paleta de colores acorde al proyecto.
+
+● Registrar al menos 3 sitios web de referencia que guiarán los estilos del sitio.
+
+● Crear un banco de imágenes para el proyecto.
+
+---
