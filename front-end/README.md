@@ -86,4 +86,22 @@ Ejemplo de uso de cards, formularios, carousel, jumbotron, navbar, buttons, etc.
 
 - [Clase 11 - Bootstrap](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-11.md)
 
+
+## GIT
+
+Contenidos Generales:
+
+```
+Introducción a GIT: Instalación. Configuración. Estados.
+Repositorio Local: Creando un repositorio. Add y Commit.
+Deshacer cambios. Historial de cambios.
+Repositorio remoto con GitHub.
+Creación de un repositorio remoto.
+Sincronizar GIT con GitHub.
+Conflictos.
+Pull y Push.
+```
+
+- [Clase 12 - Git ](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-12.md)
+  
 --- 
