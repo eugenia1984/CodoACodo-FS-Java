@@ -119,11 +119,53 @@ en px, unidades relativas o %, aunque es recomendable utilizar la medida fr.
 
 ![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/52606a15-4a1d-4c13-9a16-5e0fd1ad1441)
 
-## CSS Grid | grid-template-columns
 
 ![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/bac77386-b521-423d-8dfb-03493b57edc8)
 
 Si una cuadrícula de 4 columnas tiene más de 4 elementos, se agrega
 automáticamente una nueva fila para colocar los elementos extra.
+
+- **Unidad fracción restante (fr):** La unidad especial de Grid fr (fraction) representa una fracción de espacio
+restante en el grid.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/c29e8763-7df7-42f3-8ac0-008dc1193f53)
+
+- **La expresión repeat():** Se puede utilizar la expresión repeat() para indicar repetición de valores,
+indicando el número de veces que se repiten y el tamaño en cuestión.
+La expresión a utilizar es la siguiente: ``repeat([núm de veces], [valor o valores]):``
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/d30201a3-6126-4725-ae6d-53e1ee8368ff)
+
+- La propiedad **grid-template-rows** define la altura de cada fila. El valor es una lista separada por espacios, donde cada valor define el alto de la fila respectiva.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/38620828-fe4c-4170-954d-300da10deb10)
+
+- La propiedad **justify-content** se utiliza para alinear toda la cuadrícula dentro del contenedor. El ancho total de la cuadrícula debe ser menor que el ancho del contenedor para que la propiedad tenga efecto.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/57daec23-f749-458d-91d0-3f5bbd3e2416)
+
+- La propiedad **align-content** se usa para alinear verticalmente toda la
+cuadrícula dentro del contenedor. La altura total de la cuadrícula debe ser
+menor que la altura del contenedor para que tenga efecto.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/57af77e0-1384-4736-9c2d-5fc1305f76fa)
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/ccd1232b-07da-4392-8289-fc2977dfef03)
+
+- La propiedad **grid-area** especifica el tamaño y la ubicación de un elemento
+de cuadrícula en el diseño, y es una propiedad abreviada para las siguientes
+propiedades: grid-row-start, grid-column-start, grid-row-end y
+grid-column-end.
+
+La grid-area también se puede utilizar para asignar un nombre a un
+elemento de la cuadrícula. Y se puede hacer referencia a los elementos de
+cuadrícula con nombre mediante la propiedad grid-template-areas del
+contenedor de cuadrícula.
+
+Ejemplos de Grid-Area:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/6ca35246-f227-4607-99b4-dfafc02e822c)
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/da86cc38-cce6-4474-b87b-9f21f9c84176)
 
 ---
