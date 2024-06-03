@@ -63,9 +63,9 @@ Contenidos:
 
 - [Clase 8 - CSS - Selectores avanzados y animaciones](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-08.md)
 
-- Clase 9
+- [Clase 9  - CSS - FllexBox](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-09.md)
 
-- Clase 10
+- [Clase 10 - CSS](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-10.md)
     
 - [Proyecto](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/proyecto.md)
 
