@@ -204,4 +204,151 @@ de igual ancho.
 
 ![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/1ccfbc9b-3a2d-4917-a70b-742f7ee635c8)
 
+
+## BOOTSTRAP | Columnas receptivas
+
+El ejemplo muestra cómo cuatro columnas de igual ancho, partiendo de una
+tablet y escalando a escritorios extra grandes. En pantallas de menos de 768
+px de ancho, las columnas se apilan automáticamente una encima de la otra:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/fb60b084-c39f-49d0-b9bf-88ea80514453)
+
+---
+
+## BOOTSTRAP | Clases receptivas
+
+El sistema de cuadrícula Bootstrap tiene seis clases:
+
+● .col- (dispositivos extra pequeños: ancho inferior a 576 px)
+
+● .col-sm- (dispositivos pequeños: ancho igual o superior a 576 px)
+
+● .col-md- (dispositivos medianos: ancho igual o superior a 768 px)
+
+● .col-lg- (dispositivos grandes: ancho igual o superior a 992 px)
+
+● .col-xl- (dispositivos xlarge: ancho igual o superior a 1200 px)
+
+● .col-xxl- (dispositivos xxlarge: igual o superior a 1400 px)
+
+Las clases anteriores se pueden combinar para crear diseños más dinámicos y
+flexibles.
+
+Cada clase se escala, por lo que si desea establecer los mismos anchos para sm y md,
+sólo necesita especificar sm.
+
+---
+
+## BOOTSTRAP | Componentes
+
+Los componentes de Bootstrap permiten acelerar el proceso de diseño. Son
+soluciones prediseñadas y personalizables. 
+
+Navbar: permite crear una barra de navegación o menú. Viene preparado
+con el típico icono de hamburger (tres líneas horizontales) que aparece en la
+versión móvil.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/0db9c613-75c1-4a6c-b24c-26eff06aca5c)
+
+- **Alerts**: son como cajas de texto con cierto tipo de diseño. Se suelen usar para
+proporcionar información puntual al usuario.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/4c131cca-26d6-45ca-ad99-7559d1ecb963)
+
+- **Carousel**: Utiliza un sistema de slides para recorrer varios elementos. Permite
+contener fotografías que van pasando dentro del mismo espacio. Es un
+componente de presentación de diapositivas.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/83ea301d-4780-4c4f-9307-9278a2b690b7)
+
+- **Dropdowns**: Sirven para que el usuario pueda escoger una opción en un
+conjunto de posibilidades. Genera un menú desplegable hacia abajo o hacia
+a la derecha que permite incluir vínculos. Con el atributo active se puede
+marcar alguna opción del menú. Se pueden alternar para mostrar listas de
+enlaces y más
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/701ea21c-5d44-43c9-b9a4-2f98818eadfb)
+
+
+- **Breadcrumb** (o migas de pan): Sirven para mostrar la situación del usuario
+dentro de una página. Indica al usuario dónde está y de dónde viene. Se
+agregan dentro de la etiqueta semántica ``<nav>``. El atributo active es el que
+indica en qué página estamos ubicados
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/048b14fe-91b7-491c-9078-a13541424c8e)
+
+- **Collapse (accordion)**: Este elemento añade un botón capaz de ocultar o
+mostrar cierto contenido, es decir, crear elementos colapsables. Son
+contenidos que se despliegan y su uso es común en la sección “preguntas
+frecuentes”.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/6b95c140-f516-4b94-8f42-e4c12ef810ce)
+
+- **Buttons^^: Los botones por defecto son elementos **inline**, pero de ser necesario
+un comportamiento similar a inline-block podemos aplicar la clase
+**btn-block**.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/b785aa4b-4d2b-4bef-a5c3-5f6ed5067c19)
+
+- **Cards**: Las cards o tarjetas, sirven para agrupar contenido. Se suelen utilizar
+para crear listas de elementos, por ejemplo, artículos de blog, colecciones de
+elementos, etc.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/fcddabff-ea30-4dd5-ab1b-874fb4e67b76)
+
+- **Forms**: Bootstrap aplica estilos a los elementos de tipo formulario para
+convertirlos en elementos responsive, mejorar su apariencia y permitirnos
+crear diferentes alineaciones
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/e0f2c8a5-1813-4f5a-bb9e-a62e50e09010)
+
+- **Tables**: Boostrap dispone de distintas clases para dar estilo a las tablas, estas
+son algunas de ellas
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/9c6d3348-1ce2-48d2-820a-1ff68a286f59)
+
+- **Progress bar (barras de progreso)**: Otra herramienta que nos presenta la
+librería Bootstrap son las barras de progreso. Normalmente se las utiliza para
+indicar cuánto se ha avanzado en una actividad. Para crear una barra de
+progreso debemos definir un div con la clase "progress" y un div interno al
+anterior con la clase "progress-bar".:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/df6cbb18-30b7-4241-9f39-cd65cad61e19)
+
+- **Ventanas modales**: Son ventanas emergentes que se abren cuando el usuario
+interactúa con algún elemento. Para funcionar, modal usa los atributos
+data-toggle con el valor “modal” y data-target con el id del modal que se crea.
+Para cerrar el modal se usa la etiqueta html de data-dismiss=”modal”. Modal es
+un contenedor.
+
+  ![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/4d5d40ab-286f-45d4-b056-b719fa5494c4)
+
+---
+
+## Otros Frameworks CSS | Materialize CSS
+
+
+Materialize es un framework CSS que implementa el tema de diseño “Material
+Design”. Ofrece componentes material listos para usar, que se pueden integrar de
+una manera cómoda en los sitios web, consiguiendo un diseño guiado por las
+directrices de aplicaciones y sitios de Google.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/06e4a556-75dd-4e3a-b921-aa0570bce4e9)
+
+El framework es sencillo de usar, relativamente ligero, permite optimización y los
+componentes están altamente personalizados en su diseño.
+
+## Otros Frameworks CSS | Tailwind CSS
+
+Tailwind es un framework CSS que ofrece un enfoque diferente a Bootstrap, tiene
+clases y una gran biblioteca que te permitirá acelerar el proceso de diseño de
+cualquier sitio web. Estos frameworks ofrecen estilos CSS atómicos, aunque
+también permite crear componentes, lo deja más del lado del desarrollador, que
+los podrá personalizar a su gusto. Además es muy maleable y se adapta muy bien
+a las necesidades del desarrollador. Con el framework puedes hacer builds de
+clases CSS totalmente personalizadas, que se parezcan o no a las que se ofrecen
+de manera predeterminada
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/e4c58830-3d82-4528-850e-37b75ac5125d)
+
 ---
