@@ -65,7 +65,7 @@ Contenidos:
 
 - [Clase 9  - CSS - FlexBox](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-09.md)
 
-- [Clase 10 - CSS](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-10.md)
+- [Clase 10 - CSS - Grid](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-10.md)
     
 - [Proyecto](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/proyecto.md)
 
