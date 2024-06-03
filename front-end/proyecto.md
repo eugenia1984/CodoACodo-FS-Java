@@ -68,7 +68,12 @@
 
 ## 8 - Tarea para el Proyecto:
 
-● Agregar efectos al menú de navegación. Podrá aprovechar las
-pseudoclases vistas en la clase de hoy.
+● Agregar efectos al menú de navegación. Podrá aprovechar las pseudoclases vistas en la clase de hoy.
+
+---
+
+## 9 - Tarea para el Proyecto:
+
+● En función de la distribución (layout) elegida para el proyecto utilizar Flexbox para maquetar el encabezado (header) y/o pie (footer).
 
 ---
