@@ -77,3 +77,9 @@
 ● En función de la distribución (layout) elegida para el proyecto utilizar Flexbox para maquetar el encabezado (header) y/o pie (footer).
 
 ---
+
+## 10 - Tarea para el Proyecto:
+
+● En función de la distribución (layout) elegida para el proyecto utilizar Grid para maquetar el contenido principal (main) de las páginas del sitio.
+
+---
