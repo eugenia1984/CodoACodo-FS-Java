@@ -84,6 +84,6 @@ Aula Virtual: Utilización de componentes.
 Ejemplo de uso de cards, formularios, carousel, jumbotron, navbar, buttons, etc.
 ```
 
-- CLase 11
+- [Clase 11 - Bootstrap](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-11.md)
 
 --- 
