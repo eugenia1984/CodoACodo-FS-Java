@@ -267,3 +267,70 @@ plataforma (3).
 ![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/3b7add97-db84-4cb1-9df7-d4f0d248c1df)
 
 ---
+
+## GIT | Sincronizando con GitHub (push)
+
+El comando ``git push -u origin <rama>`` sincroniza una rama del repositorio local con el repositorio externo. Necesitamos el nombre de usuario en GitHub y un token que se obtiene desde ``“Usuario -> Settings -> Developer -> settings -> Personal tokens”`` .
+
+Ejecutado este comando, el repositorio se sincroniza y podemos verlo en GitHub:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/edbbbd7c-b63b-47da-9f73-f3b303674bc6)
+
+``git push`` es un comando de carga que permite subir los commits realizados en nuestro repositorio local a GitHub. Una vez allí, estos pueden ser descargados por el resto del equipo de trabajo.
+
+Para crear una rama local en el repositorio de destino utilizamos: ``git push <remote> <branch>``
+
+Si queremos enviar todas las ramas locales a una rama remota especificada.
+
+``git push <remote> --all``
+
+Una vez movidos los conjuntos de cambios se puede ejecutar un comando ``git merge`` en el destino para integrarlos
+
+En caso de querer sincronizar nuestro trabajo con el de otro usuario, en forma local, podemos clonar su repositorio: ``git clone <url repositorio externo>``
+
+Hacer los cambios necesarios, commitearlos, y luego, con push, enviarlos nuevamente al repositorio remoto. En este caso, en el push usaremos
+nuestro usuario y el token del propietario del repositorio.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/df180561-cc72-4ab9-9981-5ace0801558a)
+
+De esta forma vemos en GitHub los commits hechos hasta el momento, tanto del propietario del repositorio como del colaborador:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/58ab1c7a-edc3-4a34-a82e-610fdb53caf1)
+
+## GIT | Sincronizando con GitHub (pull)
+
+El comando ``git pull`` se emplea para extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local para reflejar ese contenido. El comando git pull es, en realidad, una combinación de dos comandos, git fetch seguido de ``git merge``.
+
+``git pull <remote>`` Recupera la copia del origen remoto especificado de la rama actual y la fusiona de inmediato en la copia local.
+
+``git pull --no-commit <remote>`` Recupera la copia del origen remoto, pero no crea una nueva conformación de fusión.
+
+----
+
+## GIT | Conflictos
+
+El mecanismo provisto por git no está exento de posibles conflictos.
+
+Un merge se genera cuando dos o más commits contienen cambios sobre las mismas líneas de código de los mismos archivos. En ocasiones, git no
+puede resolver la situación automáticamente.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/6dadd7d3-8f15-4f94-b037-a20998c27c5c)
+
+En el ejemplo de la diapositiva anterior, en otra rama el color de fondo se había fijado en “green”. Al realizar el pull request aparece el conflicto, y se nos pide que lo solucionemos manualmente:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/b0f13cbd-b04d-4587-8d71-2f4ec4a07032)
+
+Lo resolvemos eliminando la(s) línea(s) que no sean pertinentes y lo marcamos como “resolved”. Hacemos el commit merge, y el archivo
+finalmente quedará con los cambios elegidos:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/3a992212-a3ee-40d4-98a9-839de962694c)
+
+---
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/4c003b5a-446b-4c42-893f-2129d348239c)
+
+---
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/24e45262-3353-476b-a324-9a7ed42cd6b8)
+
+---
