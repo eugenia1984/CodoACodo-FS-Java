@@ -5,14 +5,52 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Primera práctica de JS</title>
-  <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="https://img.icons8.com/color/48/javascript--v1.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Roboto", sans-serif;
+    }
+    
+    header {
+      padding: 2rem 1rem;
+      text-align: center;
+      text-transform: uppercase;
+      background-color: rgb(238, 241, 19);
+    }
+
+    section {
+      padding: 2rem 1.75rem;
+    }
+
+    code,
+    .result {
+      display: block;
+      color: red;
+      line-height: 1.8;
+      margin: 12px;
+      background-color: aliceblue;
+      padding: 6px;
+    }
+
+    h2 {
+      padding: 1rem 0.75rem;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Primera práctica de JavaScript en Codo a Codo</h1>
   </header>
   <section>
-    <h2>Qué hice ?</h2>
+    <h2>¿Qué hice ?</h2>
     <p>Declaro la variable primera y le asigno el valor numericode 40</p>
     <code>let primera = 40;</code>
     <p>Declaro la variable segunda y le asigno el valor nmerico de 16</p>
@@ -22,8 +60,8 @@
     <p>Muestro por pantalla: El resultado de la suma de las dos varaibles es: 56 con:</p>
     <code>document.write( `El resultado de la suma de las dos variables es: ${sumaTotal}`);</code>
     <h2>A continuación se muestra:</h2>
-    <!--Aca se muesra en navegador el texto ingresado con JS-->
+    <!--Aca se muestra en navegador el texto ingresado con JS-->
   </section>
-  <script src="./js/script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>

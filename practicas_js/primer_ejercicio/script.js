@@ -5,4 +5,4 @@ let segunda = 16;
 //Declaro la variable sumaTotal que es la suma de las varaibles declaradas anteriormente
 let sumaTotal = primera + segunda;
 //Muestro por pantalla: El resultado de la suma de las dos varaibles es: 56
-document.write( `El resultado de la suma de las dos variables es: ${sumaTotal}`);
+document.write( `<p class="result">El resultado de la suma de las dos variables es: ${sumaTotal}</p>`);
