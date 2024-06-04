@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/color/48/javascript--v1.png"
+      type="image/x-icon"
+    />
+    <title>Cuarta práctica de JS</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+
+      header {
+        padding: 2rem 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: rgb(238, 241, 19);
+      }
+
+      section {
+        padding: 2rem 1.75rem;
+      }
+
+      code,
+      .result {
+        display: block;
+        color: red;
+        line-height: 1.8;
+        margin: 12px;
+        background-color: aliceblue;
+        padding: 6px;
+      }
+
+      h2 {
+        padding: 1rem 0.75rem;
+      }
+      p {
+        padding-bottom: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Cuarta práctica de JavaScript</h1>
+    </header>
+    <section>
+      <h2>Consigna:</h2>
+      <p>
+        Escribe un programa que pida el nombre del usuario con un prompt y escriba un texto que diga “Hola nombreUsuario”.
+      </p>
+      <h2>¿Cómo lo hice?</h2>
+      <p>Con PROMPT pido si nombre y lo asigno a la variables "nombreUsuario"</p>
+      <code
+        >let nombreUsuario = prompt("Bienvenido alumn@, ingrese su nombre: ");</code
+      >
+      <p>Con la función <strong>alert()</strong> muestro el mensaje</p>
+      <code>
+        alert(`Hola ${nombreUsuario}`);
+      </code>
+    </section>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
