@@ -132,3 +132,138 @@ nombre. Esto se hace con los comandos siguientes:
 ● Consultar los datos que tenemos registrados: ``git config --global -e``
 
 ---
+
+## GIT | Inicializar una carpeta
+
+El primer paso para utilizar git en un proyecto consiste en inicializar la carpeta que lo contiene, convirtiéndola en un repositorio
+local. 
+
+Para ello, utilizando los comandos provistos por el sistema operativo debemos ubicarnos en ella, y utilizar el comando ``git init``. Esto genera por defecto una rama llamada “master”.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/3f2d011f-05a6-468f-a3d0-0694b7e1161f)
+
+---
+
+## GIT | Ver y cambiar el nombre a la rama actual
+
+Para ver el estado de la rama actual y su contenido utilizamos: ``git status``.
+
+Es posible cambiar el nombre a la rama actual con el comando: ``git branch -m <nombre>``.
+
+Actualmente se está realizando una campaña para utilizar como rama principal main en lugar de master.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/4daf0ab2-5591-4760-9d62-33a6835a6da1)
+
+---
+
+## GIT | Ver el estado de los archivos
+
+Podemos ver el estado de los archivos que contiene la carpeta controlada por git usando ``git status``. En color rojo vemos archivos agregados/modificados, que aún no se han incluido en el **staging area**.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/6222f21c-9619-4e1d-9860-f46a8fc8eafd)
+
+---
+
+## GIT | Agregar archivos al staging area
+
+``git add`` incorpora los archivos que han sido creados o modificados recientemente al staging area. Se puede agregar un archivo con: ``git add <archivo>`` O todos con: ``git add .`` Los archivos listos para ser commiteados aparecen ahora en verde.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/d1433b01-0f28-4e84-937c-185bef00b49c)
+
+---
+
+## GIT | Agregar archivos al repositorio local
+
+Los archivos del **staging area** se envían al repositorio local utilizando el comando ``git commit -m ”comentario”``, donde “comentario” es una explicación de los cambios implicados. Es importante incluir una descripción relevante en cada commit, ya que será lo que git nos mostrará cuando veamos el “historial” de cambios realizados.
+
+Cada vez que realizamos un commit, git genera un punto de restauración al cual es posible volver en cualquier momento.
+
+Si no incluimos el comentario (git commit), y hemos configurado un editor de texto, git abre una ventana para que lo hagamos. Grabamos, cerramos, y el commit se habrá realizado.
+
+---
+
+## GIT | Ver snapshots creados
+
+Luego de hacer el commit, si queremos obtener un historial de los cambios realizados en los archivos que integran nuestro repositorio usamos ``git log``.
+
+El ciclo de trabajo, entonces, consiste en editar los archivos, enviarlos al staging area, y cuando estamos listos, hacemos un commit.
+Repetimos este proceso las veces que sea necesario.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/a46a1554-ec72-41d0-85e0-20dff6c6e6bf)
+
+---
+
+## GIT | Ver cambios en un archivo
+
+Una característica muy potente de git es la posibilidad de visualizar los cambios que se han producido en un archivo. Con ``git diff`` podemos
+ver que líneas se agregaron (verde), eliminaron (rojo) o modificaron (amarillo) entre la versión actual del mismo y la del último commit:  ``git diff <archivo>``
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/073de8b8-3a94-45b7-887e-af93fffa43e7)
+
+---
+
+## GIT | Descartar cambios
+
+Existen tres maneras de descartar cambios que hayamos realizado:
+
+- ``git checkout``: descarta los cambios sobre el archivo y vuelve a la versión que esté en el último commit del repositorio.
+  
+- ``git reset --hard``: descarta todos los cambios no commiteados, sin guardarlos. Vuelve a las versiones del último commit realizado.
+
+- ``git stash``: descarta todos los cambios no commiteados, guardándolos para poder recuperarlos en un futuro.
+
+---
+
+## GIT | Recuperar cambios que han sido descartados
+
+Los cambios que han sido descartados con git stash pueden ser recuperados.
+
+- ``git stash list``: lista todos los “puntos de restauración” que hemos generado con “stash”. El más reciente tiene el índice 0 (cero).
+
+- ``git stash show –p <stash-name>``: Muestra los cambios que se encuentran guardados en un stash en particular.
+
+- ``git stash apply <stash-name>``: Recupera los cambios desde un stash en particular (no se elimina el punto de restauración).
+
+- ``git stash drop <stash-name>``: Elimina un “punto de restauración” de forma definitiva, y la pila de cambios stasheados se reordenará. Esta acción es irreversible.
+
+---
+
+## GIT | Ignorar archivos o carpetas
+
+Cuando no necesitamos que todos los archivos de nuestro proyecto sean gestionados por git podemos hacer una lista con los archivos y/o
+carpetas a excluir, y guardarla en un archivo de texto que tenga el nombre ``.gitignore``. Se debe poner un nombre por línea, y todos los
+archivos allí listados serán ignorados por git.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/07cca113-4b00-4d8d-bfc6-ac392bea406c)
+
+---
+
+## GIT | Ramas (branch)
+
+Podemos crear una nueva rama en nuestro proyecto, mediante estos comandos:
+
+- ``git branch``: muestra la(s) ramas que componen el proyecto.
+
+- ``git branch <nombre de la rama>``: crea una nueva rama con el nombre indicado.
+
+- ``git checkout <nombre de la rama>``: cambio a otra rama para trabajar en ella.
+
+---
+
+## GIT | GitHub
+
+GitHub es una plataforma de repositorios remotos. Además de permitir ver el código y descargar diferentes versiones de una aplicación, la
+plataforma también conecta desarrolladores para que puedan colaborar en un mismo proyecto.
+
+Podemos sincronizar repositorios locales con repositorios remotos, clonar en nuestra PC repositorios públicos de terceros, utilizar la plataforma como un mecanismo de backup de nuestros repositorios locales. Para poder subir gratis los proyectos deberán ser de código abierto. Ofrece también una herramienta de revisión de código, en la que se pueden dejar anotaciones para mejorar y optimizar el código.
+
+---
+
+## GIT | Crear y vincular repositorio remoto
+
+Creamos un repositorio (1), le damos un nombre (2) y lo enlazamos con nuestro repositorio local mediante el comando que nos muestra la
+plataforma (3).
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/3b7add97-db84-4cb1-9df7-d4f0d248c1df)
+
+---
