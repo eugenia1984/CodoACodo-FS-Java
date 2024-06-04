@@ -101,3 +101,34 @@ Luego, cuando queremos establecer un punto de restauración, ejecutamos ``git co
 
 
 ---
+
+## Comandos básicos del sistema operativo
+
+Una vez instalado git y con la consola de comandos abierta (puede ser la terminal de VSCode), podemos utilizar comandos para movernos por el árbol de directorios (carpetas), ver su contenido, crear carpetas nuevas, etcétera.
+
+| Comando | Descripción |
+| ------- | ----------- |
+| ``pwd`` | Ver en qué carpeta estamos ubicados. |
+| ``ls`` | Mostrar el contenido de la carpeta. Agregando ``-l`` o ``-lh`` obtenemos más detalle y con ``-la`` muestra los archivos ocultos. |
+| ``clear`` o ``CTRL+L`` | Limpiar la pantalla. |
+| ``cd`` | carpeta Ingresar en la subcarpeta (cd: **change directory**). |
+| ``mkdir`` | nombrecarpeta Nos permite crear una carpeta. |
+| ``rm <archivo.ext>`` | Elimina el archivo, donde ext es la extensión. |
+| ``rm –r <nombredecarpeta/>`` | Elimina la carpeta. |
+| ``mv <nombreoriginal.ext> <nombrenuevo.ext>`` | Cambia el nombre a un archivo (agregando la extensión) o a una carpeta. |
+| ``exit`` | Salimos de la terminal. |
+
+---
+
+## GIT | Registrar mis datos en git
+
+Antes de realizar algunas de las operaciones más importantes de git, necesitamos indicar cuál es nuestra dirección de correo y cuál es nuestro
+nombre. Esto se hace con los comandos siguientes:
+
+● Proporcionar la dirección de correo: ``git config --global user.email "correodelusuario@dominio.com"``
+
+● Proporcionar el nombre del propietario: ``git config --global user.name "NombreDelUsuario"``
+
+● Consultar los datos que tenemos registrados: ``git config --global -e``
+
+---
