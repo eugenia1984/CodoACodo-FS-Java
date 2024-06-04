@@ -83,3 +83,10 @@
 ● En función de la distribución (layout) elegida para el proyecto utilizar Grid para maquetar el contenido principal (main) de las páginas del sitio.
 
 ---
+
+## 11 - Tarea para el Proyecto:
+
+● Crear un repositorio en GitHub y utilizar los comandos básicos de Git para subir el proyecto, agregar colaboradores y comenzar a
+trabajar en conjunto.
+
+---
