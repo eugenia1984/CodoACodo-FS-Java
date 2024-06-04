@@ -58,17 +58,32 @@
     <section>
       <h2>Consigna:</h2>
       <p>
-        Escribe un programa que pida el nombre del usuario con un prompt y escriba un texto que diga “Hola nombreUsuario”.
+        Escribe un programa que pida el nombre del usuario con un prompt y
+        escriba un texto que diga “Hola nombreUsuario”.
       </p>
       <h2>¿Cómo lo hice?</h2>
-      <p>Con PROMPT pido si nombre y lo asigno a la variables "nombreUsuario"</p>
+      <p>
+        Con PROMPT pido si nombre y lo asigno a la variables "nombreUsuario"
+      </p>
       <code
-        >let nombreUsuario = prompt("Bienvenido alumn@, ingrese su nombre: ");</code
+        >let nombreUsuario = prompt("Bienvenido alumn@, ingrese su nombre:
+        ");</code
       >
-      <p>Con la función <strong>alert()</strong> muestro el mensaje</p>
-      <code>
-        alert(`Hola ${nombreUsuario}`);
-      </code>
+      <p>
+        Con la función <strong>alert()</strong> muestro el mensaje y con
+        condiciones verifico que no hace click en "Cancelar" ni que no ingresa
+        nada.
+      </p>
+      <code>if (nombreUsuario === null) { // si hacen click en cancelar</code>
+      <code
+        >alert(`Debía ingresar el nombre, en vez de hacer click en
+        cancelar.`);</code
+      >
+      <code>} else if (nombreUsuario === "") { // si no completan nada </code>
+      <code> alert(`Debía ingresar un nombre`);</code>
+      <code>} else {</code>
+      <code>  alert(`Hola ${nombreUsuario}`);</code>
+      <code> } </code>
     </section>
     <script src="./script.js" defer></script>
   </body>
