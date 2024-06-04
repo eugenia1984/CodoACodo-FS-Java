@@ -110,4 +110,30 @@ Pull y Push.
 
 - [Clase 13 - Scrum](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-13.md)
 
+---
+
+
+## JavaScript
+
+Contenidos Generales:
+
+```
+Introducción.
+Qué es y para qué sirve JavaScript.
+Variables, Tipos de Datos, Number, parseInt y parseFloat.
+Objeto Math.
+Operadores aritméticos y de Asignación.
+Operadores Relacionales y de Comparación.
+Condicionales. Bucles.
+Funciones. Arrow Functions. Scope. Callbacks y Closures.
+Strings y sus métodos.
+ Arrays.
+Manipulación del DOM.
+Eventos en JS.
+Objetos. Iterar con for in.
+Iterar con for of.
+```
+
+- [Clase 14](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-14.md)
+
 --- 
