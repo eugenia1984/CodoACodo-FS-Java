@@ -90,3 +90,20 @@
 trabajar en conjunto.
 
 ---
+
+## 12 - Tarea para el Proyecto:
+
+● Definir un Scrum Master para el TPO. No necesariamente es quien
+mejor programa ya que su rol no se relaciona con sus habilidades
+técnicas sino con las habilidades blandas.
+
+● Realizar reuniones de Scrum cada 1 o 2 días (Daily Scrum). Las
+reuniones se organizan según 3 preguntas: 1) ¿Qué hiciste ayer?, 2)
+¿Qué harás hoy?, 3) ¿Hay/Hubo impedimentos en tu camino?
+
+● Realizar sprints con una duración de 1 semana, no más.
+
+● Tener un Backlog actualizado a diario. El link al Backlog (y al
+Incremento) tiene que ser conocido por todo el Equipo.
+
+---
