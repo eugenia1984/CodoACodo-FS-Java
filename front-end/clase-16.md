@@ -226,4 +226,102 @@ ejecutado. Puede haber más de un return por función.
 
 ![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/4a8cf729-3cb9-4f44-b1de-332a94a4eb88)
 
+Veamos dos funciones que hacen lo mismo, una retorna valores y otra no:
+
+- Esta función muestra “La suma es …” en la consola, pero no retorna ningún valor al programa.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/c06a2e49-37e7-479a-91b9-fdc6f9bf8bb7)
+
+En este caso la función devuelve un valor, y se almacena en una variable llamada resultado que contiene la suma de dos
+valores realizada por la función sumarDos.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/82ba6d27-9c93-47f9-931b-8c280b65f795)
+
+- Otra alternativa es hacer que la función guarde directamente el resultado que devuelve en una variable:
+
+Al retornar un valor, éste se guarda en la variable suma.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/a331fb38-0c8e-4e02-805e-61004edd744f)
+
+En este caso se piden dos valores y si la condición no se cumple se asume que el valor2 es el máximo (no es necesario un else)
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/f37c6302-5c08-4e26-98e0-e8f7d17bcc0f)
+
+---
+
+## Funciones | Función flecha (arrow Function)
+
+En JavaScript existe la forma resumida de escribir las funciones. Se llaman funciones flecha, en alusión a =>. Permiten definir funciones de manera más fácil, breve y rápida, aunque están limitadas a funciones más simples. Para crear estas funciones flecha partiremos del ejemplo:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/32433c4d-be33-4869-aa2c-5aa1e766e833)
+
+x es el parámetro. A la derecha de la flecha agregamos el contenido de la función, que es lo que se va a retornar.
+
+Si existe más de un parámetro, hay que usar paréntesis:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/07c87039-53c9-4768-947f-804fa1198ffe)
+
+Existen varias formas de declarar una función flecha. Cada paso a lo largo del
+camino es una función flecha válida:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/13f63868-9a3f-494c-b7f3-dba19599bd28)
+
+## Funciones | Función flecha - Sintaxis básica
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/b019e7e1-2bef-4967-98fe-9ba2bd5e8546)
+
+---
+
+## Funciones | Función anónima
+
+Las funciones anónimas son un tipo de funciones que se declaran sin
+nombre de función y se alojan en el interior de una variable y haciendo
+referencia a ella cada vez que queramos utilizarla:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/d119f3cb-112e-4fc8-bcef-a815e7e5c97d)
+
+---
+
+## Scope (alcance)
+
+El scope (alcance) determina la accesibilidad (visibilidad) de las variables.
+Define ¿en qué contexto las variables son visibles y cuándo no lo son?. Una
+variable que no está “al alcance actual” no está disponible para su uso.
+
+En JavaScript hay dos tipos de alcance:
+
+● Alcance local (por ejemplo, una función)
+
+● Alcance global (entorno completo de JavaScript)
+
+Las variables definidas dentro de una función no son accesibles (visibles)
+desde fuera. La función “crea un ámbito cerrado” que impide el acceso a una
+variable de su interior desde fuera de ella o desde otras funciones.
+
+---
+
+## Scope (alcance) | Variables locales
+
+En el siguiente ejemplo creamos una variable llamada carName a la cual le
+asignamos un valor:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/3289e778-db03-4200-aaee-77469557a561)
+
+Este tipo de variables son de alcance local, porque solamente valen en el
+ámbito de la función, y no en el ámbito a nivel de programa. Los parámetros
+de la función funcionan como variables locales dentro de las mismas
+
+---
+
+## Scope (alcance) | Variables globales
+
+Una variable declarada fuera de una función se convierte en global. Esto
+quiere decir que tiene alcance global: todos los scripts y funciones de una
+página web pueden acceder a ella.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/9faac635-d11d-4777-a71a-93771e8dc944)
+
+El alcance determina la accesibilidad de variables, objetos y funciones de
+diferentes partes del código.
+
 ---
