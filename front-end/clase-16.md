@@ -192,5 +192,38 @@ Dentro de la función, los argumentos se copian en los parámetros y son usados 
 
 Cuando se utilizan parámetros múltiples hay que respetar el orden en que los declaramos y el de los argumentos usados al llamarla. Esta función tiene dos parámetros: el valor de la tabla a generar y hasta qué valor calculará.
 
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/674c5e8f-62f4-4099-b0fe-f4b8bb981787)
+
+Ejemplo con tres parámetros. Se evalúa la mayoría de edad de una persona:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/5c7c3b23-8dfb-4db7-a63c-ecdbc819fd9a)
+
+---
+
+## Parámetros predeterminados
+
+Los parámetros predeterminados de
+función permiten que los parámetros con
+nombre se inicien con valores
+predeterminados si no se pasa ningún
+valor o undefined.
+
+En JavaScript, los parámetros de función
+están predeterminados en undefined. Sin
+embargo, a menudo es útil establecer un
+valor predeterminado diferente.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/015cd30c-93f6-4bed-a7b2-b4de0c7df344)
+
+---
+
+## Funciones | Devolución de valores
+
+Una función puede devolver información, para ser utilizada o almacenada en
+una variable. Se utiliza la palabra clave return, que regresa un valor y finaliza
+la ejecución de la función. Si existe código después del return, nunca será
+ejecutado. Puede haber más de un return por función.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/4a8cf729-3cb9-4f44-b1de-332a94a4eb88)
 
 ---
