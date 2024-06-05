@@ -61,3 +61,136 @@ necesitar colaborar con otros, o trabajar de forma conjunta.
 
 
 ---
+
+## Funciones
+
+Las funciones nos permiten agrupar líneas de código en tareas con un
+nombre (subprograma), para que posteriormente podamos referenciar ese
+nombre para realizar dicha tarea. Algunas razones para declarar funciones:
+
+● **Simplificación**: Cuando un conjunto de instrucciones se va a usar muchas veces, se
+crea una función con esas instrucciones y se llama la cantidad de veces que sea
+necesario, reduciendo un programa complejo en unidades más simples.
+
+● **División**: Una función me permite modularizar, es decir, armar módulos. De esta
+manera un equipo puede dividir el trabajo en partes. Cada integrante realiza una
+función, para luego integrarlas en un programa principal más grande.
+
+● **Claridad**: Usando funciones un programa gana claridad, aunque esa función solo
+se llame una vez.
+
+● **Reusabilidad**: Una función es reutilizable, sólo es necesario cambiar los valores de
+entrada.
+
+### Para usar funciones es necesario hacer dos cosas:
+
+● **Declarar la función**: crear la función es darle un nombre, definir los datos de entrada
+(opcional) e indicar las tareas (instrucciones) que realizará y qué valor retornará
+(opcional).
+
+● **Ejecutar la función**: «Llamar» (**invocar**) a la función para que realice las tareas del
+código que aloja. Se puede invocar una misma función la cantidad de veces que se
+necesita desde el programa principal.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/34b2ae85-c747-44af-bfc2-7949748a7884)
+
+El **nombre** de la función tiene que ser significativo y describir lo que hace.
+
+Los nombres de las funciones tienen las mismas características que los de las variables. Idealmente deben ser:
+
+● Nombres simples, claros.
+
+● Representativos de la tarea que realiza la función.
+
+● Verbos en infinitivo (-ar, -er, -ir).
+
+● Si es más de una palabra, utilizar la nomenclatura camelCase.
+
+Es necesario definir los datos de entrada (si existen) e incluir las instrucciones necesarias para que realice su tarea. Opcionalmente se puede definir qué valor retornará.
+
+### Funciones | Ejemplo
+
+Este código muestra la tabla de multiplicar por 5.
+
+```JavaScript
+for (i = 1; i <= 10; i++) {
+  console.log("1 x", i, "=", 5 * i)
+}
+```
+
+Este código muestra la tabla de multiplicar por 5 tres veces. Funciona, pero usa demasiado código, repetido.
+
+```JavaScriot
+// Primera vez
+for (i = 1; i <= 10; i++) {console.log("5 x", i, "=", 5 * i)}
+// Segunda vez
+for (i = 1; i <= 10; i++) {console.log("5 x", i, "=", 5 * i)}
+// Tercera vez
+for (i = 1; i <= 10; i++) {console.log("5 x", i, "=", 5 * i)}
+```
+
+Solución con bucle y función. La función tablaDelCinco() usa un for de 10 iteraciones. El otro for ejecuta la función 3 veces.
+
+```JavaScript
+// Declaración de la función tablaDelCinco()
+function tablaDelCinco() {
+  for (i = 1; i <= 10; i++){console.log("5 x", i, "=", 5 * i)}
+}
+
+// Bucle que ejecuta 3 veces la función tablaDelCinco()
+for (let i = 1; i <= 3; i++) {
+  tablaDelCinco()
+}
+```
+
+---
+
+## Funciones | Clasificación
+
+Según reciban o no datos, y devuelvan o no valores, las funciones se puedenclasificar en:
+
+**Funciones sin parámetros**:
+
+● Que no devuelven valores
+
+● Que devuelven valores
+
+**Funciones con parámetros**:
+
+● Que no devuelven valores
+
+● Que devuelven valores
+
+### Funciones | Parámetros y Argumentos
+
+Los parámetros son las variables que ponemos cuando se define una función. En la siguiente función tenemos dos parámetros “a” y “b”:
+
+```JavaSCript
+function sumar(a, b){
+  console.log(a + b)
+}
+```
+
+Los argumentos son los valores que se pasan a la función cuando ésta es invocada, “7” y “4” en el ejemplo:
+
+```JavaSCript
+var suma = sumar(7, 4) //Pedimos valores
+```
+Dentro de la función, los argumentos se copian en los parámetros y son usados por ésta para realizar la tarea. 
+
+- Esta función tiene un sólo parámetro que indica hasta qué valor calculará:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/0cfa850a-7923-4f9d-b841-cf027b572005)
+
+- En este ejemplo la función muestra un texto concatenado a un argumento pasado por parámetro:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/996ade55-8de0-4727-af20-1de47a27e3e7)
+
+---
+
+## Funciones | Parámetros múltiples
+
+Cuando se utilizan parámetros múltiples hay que respetar el orden en que los declaramos y el de los argumentos usados al llamarla. Esta función tiene dos parámetros: el valor de la tabla a generar y hasta qué valor calculará.
+
+
+---
