@@ -57,4 +57,20 @@ en este caso, es la letra “a”:
 array[5] hace referencia a una posición que no existe, dado que el array tiene
 solamente 3 posiciones, con índices respectivos iguales a 0, 1 y 2.
 
+## Array | .length
+
+``.length`` es un método que devuelve la cantidad de elementos que posee un array:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/39078ba0-3638-477b-a5ba-34372f46e42d)
+
+Para acceder al último elemento del array utilizamos:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/111cfee3-330c-480f-9c5a-fe400a1ab332)
+
+Debemos restar 1 al valor devuelto por ``.length`` por que los valores de los índices del arreglo comienzan en cero.
+
+### Ejemplos (crear, acceder y mostrar elementos)
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/4b243139-0e4e-4c54-b57d-751131f47f63)
+
 ---
