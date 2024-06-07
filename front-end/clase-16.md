@@ -325,3 +325,89 @@ El alcance determina la accesibilidad de variables, objetos y funciones de
 diferentes partes del código.
 
 ---
+
+## Scope (alcance) | Variable automáticamente global
+
+Si asignamos un valor a una variable que no ha sido declarada, se convertirá
+en una variable global. Este ejemplo declara la variable global carName, aún
+cuando su valor se asigna dentro de una función.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/e67ee360-e0f1-4b44-8c10-71b3cd36b9e1)
+
+En este caso podremos acceder al
+contenido la variable carName tanto
+desde fuera como desde adentro de la
+función por ser automáticamente global.
+
+La vida útil de una variable comienza cuando se declara. Las variables locales
+se eliminan cuando se completa la función.
+
+---
+
+## let y var
+
+let declara una variable de alcance local, limitando su alcance (scope) al
+bloque, declaración, o expresión donde se está usando. var define una
+variable global o local en una función sin importar el ámbito del bloque.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/1af96b52-4d08-4e48-9829-335cbf383837)
+
+---
+
+## Callbacks (devolución de llamada)
+
+Las funciones en JavaScript son objetos. Como cualquier otro objeto, se
+pueden pasar como parámetro. Por lo tanto, podemos pasar una función
+como argumento de otra función. Esto se llama función de devolución de
+llamada (callback). Las funciones también se pueden devolver como
+resultado de otra función.
+ 
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/20302c9c-f1d6-40d8-9c57-32d2159506f7)
+
+El ejemplo es un callback
+sincrónico, ya que se ejecuta
+inmediatamente.
+
+---
+
+## Clausuras (clousure)
+
+Una clausura o cierre se define como una función que «encierra» variables en su propio
+ámbito (y que continúan existiendo aún habiendo terminado la función).
+
+Es decir, devolvemos una función en una función externa que hace referencia a las
+variables locales de la función externa. Esto es posible si tenemos funciones anidadas en
+otra función y devueltas como referencia.
+
+En la función interna, podemos usar las variables de la función externa. Debido al alcance
+de las variables locales, las funciones internas pueden acceder a las variables de la función
+externa.
+
+Cuando devolvemos la función interna en la función externa, las referencias a las variables
+locales de la función externa todavía están referenciadas en la función interna.
+
+La función iniciar() crea una variable local llamada nombre y una función
+interna llamada mostrarNombre(). Por ser una función interna, esta última
+solo está disponible dentro de iniciar(). mostrarNombre() no tiene ninguna
+variable propia; pero puede acceder a la variable nombre declarada en la
+función iniciar().
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/e0f9e4e9-965b-4f56-b118-72fdf7153bb8)
+
+### Clausuras | Ejemplo
+
+La función creaSumador(x) toma un
+argumento único x y devuelve una nueva
+función. Esa nueva función toma un único
+argumento y, devolviendo la suma de x + y.
+creaSumador es una fábrica de función.
+suma5 y suma10 son ambos closures.
+
+Comparten la misma definición de cuerpo
+de función, pero almacenan diferentes
+entornos. En el entorno suma5, x es 5. En lo
+que respecta a suma10, x es 10.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/0cf5bf12-f3b2-48e4-ac81-0c3dd04cae14)
+
+---
