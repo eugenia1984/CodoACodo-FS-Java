@@ -141,4 +141,9 @@ Iterar con for of.
 - [Clase 16 - Programación modular con
 funciones](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-16.md)  
 
+- [Clase 17 - Objetos](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-17.md)
+
+- [Clase 18 - Arrays, Storage y JSON](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-18.md)    
+
+
 --- 
