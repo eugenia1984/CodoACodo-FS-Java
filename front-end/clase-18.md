@@ -73,4 +73,40 @@ Debemos restar 1 al valor devuelto por ``.length`` por que los valores de los í
 
 ![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/4b243139-0e4e-4c54-b57d-751131f47f63)
 
+## Array | Bucle For
+
+Utilizando un bucle for y la propiedad .length recorremos un vector.
+vectorDos.length devuelve la longitud del vector, 3 . Usamos < (menor que)
+para recorrer las posiciones desde 0 a 2, sino la última regresa undefined.
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/75e72fda-5432-47cf-9c8d-dd3155ec36b5)
+
+## Array | Métodos (funciones)
+
+Algunos métodos y funciones que podemos utilizar con los array:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/c13310d0-4aa3-47b7-a9c6-02c472d26359)
+
+## Array | Métodos | Push y Pop
+
+El método push agrega elementos al final de una lista, y el método
+pop los elimina, también desde el final:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/bfabacc9-67a2-40f0-8d19-a5b14436ac44)
+
+## Array | Métodos | Unshift y Shift
+
+El método unshift agrega elementos al comienzo de un array y
+regresa la nueva longitud del mismo. Por su parte, shift elimina el
+primer elemento y devuelve su valor:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/01ac3c02-b1e4-4f10-b826-15c50a328ea7)
+
+## Array | Métodos | Concat
+
+El método concat se usa para unir dos o más arrays. Este método no cambia
+los arrays existentes, sino que devuelve un nuevo array:
+
+![image](https://github.com/eugenia1984/CodoACodo-FS-Java/assets/72580574/e9e7123d-ae1d-4d9b-acc8-688f4dc8e3bb)
+
 ---
