@@ -107,3 +107,9 @@ reuniones se organizan según 3 preguntas: 1) ¿Qué hiciste ayer?, 2)
 Incremento) tiene que ser conocido por todo el Equipo.
 
 ---
+
+## 13 - Actividades prácticas:
+
+● Agregar la validación de los campos obligatorios del formulario creado en el TPO. Opcional: el formulario podrá enviar un email utilizando algún servicio externo destinado para ello.
+
+---
