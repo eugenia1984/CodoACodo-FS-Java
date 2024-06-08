@@ -145,5 +145,6 @@ funciones](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/
 
 - [Clase 18 - Arrays, Storage y JSON](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-18.md)    
 
-
+- [Clase 19 - DOM y Eventos](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-19.md) 
+  
 --- 
