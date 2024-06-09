@@ -165,10 +165,10 @@ SPA y Asincronía.
 Consumo de API REST a través de fetch y Axios.
 ```
 
-- [Clase 20 - VUE 1](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-20.md)
+- [Clase 20 - VUE 1 - Introducción a Vue](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-20.md)
 
-- [Clase 21 - VUE 2](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-21.md)
+- [Clase 21 - VUE 2 - DOM y Eventos](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-21.md)
 
-- [Clase 22 - VUE 3](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-22.md)
+- [Clase 22 - VUE 3 - SPA y Asincronía](https://github.com/eugenia1984/CodoACodo-FS-Java/blob/main/front-end/clase-22.md)
   
 --- 
