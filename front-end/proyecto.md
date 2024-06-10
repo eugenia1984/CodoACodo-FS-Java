@@ -113,3 +113,9 @@ Incremento) tiene que ser conocido por todo el Equipo.
 ● Agregar la validación de los campos obligatorios del formulario creado en el TPO. Opcional: el formulario podrá enviar un email utilizando algún servicio externo destinado para ello.
 
 ---
+
+## 14 - Actividades prácticas
+
+● Para el TPO deberá poder consumir una API Rest desde JavaScript. Recuerde que deberá informar la API utilizada al momento de entregar el trabajo práctico.
+
+---
